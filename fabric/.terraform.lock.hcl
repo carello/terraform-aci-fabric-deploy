@@ -5,7 +5,7 @@ provider "registry.terraform.io/ciscodevnet/aci" {
   version     = "0.5.2"
   constraints = "0.5.2"
   hashes = [
-    "h1:X6TOEkt01n5WoQxjNzX/LRDaLnNg5McOM7Hrn+4ddf4=",
+    "h1:PpTrJEQUfNCOgLOf+yySoimnOuyfIbCNWGkd4jdYlss=",
     "zh:06160f62b411d205192d3ebfd7bcd2551b287adfd3fa868a29a0cc402f3dcf8f",
     "zh:178fc62e3ada2bc6b0d63d649f1cd956afa05144d7e96ebc9b7827c994647a23",
     "zh:19f8bc75e726539a4d147f45826747322b6e07b1348013bd0e0a8c679ff284c8",

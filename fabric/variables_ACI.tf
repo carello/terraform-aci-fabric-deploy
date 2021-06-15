@@ -3,9 +3,9 @@ variable "aciUser" {
 }
 
 variable "aciPass" {
-  default = "cisco123"
+  type = string
 }
 
 variable "aciUrl" {
-  default = "https://brahma-apic1.rich.ciscolabs.com"
+  type = string
 }

@@ -1,10 +1,12 @@
-#resource "aci_attachable_access_entity_profile" "default" {
-#	for_each    			= var.policies_aep
-#	depends_on 				= [aci_physical_domain.default]
-#	description 			= each.value.description
-#	name        			= each.value.name
-#	relation_infra_rs_dom_p	= [each.value.domain]
-#}
+/*
+resource "aci_attachable_access_entity_profile" "default" {
+	for_each    			= var.policies_aep
+	depends_on 				= [aci_physical_domain.default]
+	description 			= each.value.description
+	name        			= each.value.name
+	relation_infra_rs_dom_p	= [each.value.domain]
+}
+*/
 
 resource "aci_attachable_access_entity_profile" "access_aep" {
 	depends_on 				= [aci_physical_domain.default["access"]]
